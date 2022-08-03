@@ -1,7 +1,7 @@
 import requests
 
 
-def tencent( tickNum ):
+def getTickInfoByTencent( tickNum ):
 
     url = 'http://qt.gtimg.cn/q='+tickNum
     tickInfo = requests.get(url).text

@@ -1,7 +1,7 @@
 import requests
 
 
-def sina( tickNum ):
+def getTickInfoBySina( tickNum ):
 
     url = 'http://hq.sinajs.cn/list='+tickNum
     headers = {'Referer':'https://finance.sina.com.cn/' }
